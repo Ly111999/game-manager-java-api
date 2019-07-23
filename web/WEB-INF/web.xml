@@ -13,6 +13,24 @@
         <url-pattern>/api/v1/game</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>GameViewController</servlet-name>
+        <servlet-class>com.example.demo.controller.GameViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GameViewController</servlet-name>
+        <url-pattern>/list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GameViewController</servlet-name>
+        <servlet-class>com.example.demo.controller.GameViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GameViewController</servlet-name>
+        <url-pattern>/create</url-pattern>
+    </servlet-mapping>
+
     <filter>
         <filter-name>ObjectifyFilter</filter-name>
         <filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
